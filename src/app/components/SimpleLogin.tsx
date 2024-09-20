@@ -66,7 +66,7 @@ export default function SimpleLogin() {
         >
           { error && <Alert severity='warning'>{error}</Alert> }
 
-          This simulateds a login page. Any username can be entered below.
+          This simulates a login page. Any username can be entered below.
           <TextField
             name='username'
             id='username'

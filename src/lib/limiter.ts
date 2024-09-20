@@ -8,7 +8,7 @@ interface IpRequestsType {
 }
 
 const windowSize:number = 60000;
-const maxRequests:number = 5;
+const maxRequests:number = 10;
 const ipRequests:IpRequestsType = {};
 
 const cleanupOldRequests = (timestamps:number[]) => {
